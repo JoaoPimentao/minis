@@ -9,6 +9,9 @@ target 'minis' do
 
   # add the Firebase pod for Google Analytics
   pod 'Firebase/Analytics'
+  
+  # add the Firebase pod for Google Authentication
+  pod 'Firebase/Auth'
 
   target 'minisTests' do
     inherit! :search_paths
